@@ -200,6 +200,8 @@ tbody th{font-weight:600;white-space:nowrap;color:var(--ink);width:12rem}
 /* photos */
 .photo{margin:.4rem 0 .6rem;max-width:var(--measure)}
 .photo img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:4px;background:var(--sunk)}
+.photo.diagram img{aspect-ratio:auto;object-fit:contain;background:#F7F9F4;border:1px solid var(--rule, rgba(0,0,0,.08));border-radius:6px}
+.photo.portrait img{aspect-ratio:3/4;max-height:640px;object-fit:cover}
 .photo figcaption{font:400 .8rem/1.5 var(--f-mono);color:var(--ink-3);margin-top:.55rem;max-width:var(--measure)}
 .photo-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;max-width:var(--measure)}
 .photo-pair .photo{margin:0}
@@ -229,4 +231,5 @@ html:lang(zh-Hant) h1,html:lang(zh-Hant) h2,html:lang(zh-Hant) h3{letter-spacing
 html:lang(zh-Hant) .prose p{max-width:38rem}
 html:lang(vi){--f-display:"Noto Serif",Georgia,"Times New Roman",serif}
 html:lang(vi) h1,html:lang(vi) h2,html:lang(vi) h3{line-height:1.25}
+html:lang(vi) .photo figcaption,html:lang(zh-Hant) .photo figcaption{font-family:var(--f-body);font-size:.85rem}
 @media (max-width:760px){.child-list{grid-template-columns:minmax(0,1fr)}.head-right{width:100%;justify-content:space-between}}
