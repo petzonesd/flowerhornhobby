@@ -196,3 +196,12 @@ tbody th{font-weight:600;white-space:nowrap;color:var(--ink);width:12rem}
   .timeline li{grid-template-columns:minmax(0,1fr);gap:.1rem}
 }
 .home .prose > section.doorways > *{margin-top:0}
+
+/* photos */
+.photo{margin:.4rem 0 .6rem;max-width:var(--measure)}
+.photo img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:4px;background:var(--sunk)}
+.photo figcaption{font:400 .8rem/1.5 var(--f-mono);color:var(--ink-3);margin-top:.55rem;max-width:var(--measure)}
+.photo-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;max-width:var(--measure)}
+.photo-pair .photo{margin:0}
+.hero-photo{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover;border-radius:6px;max-width:100%}
+@media (max-width:760px){.photo-pair{grid-template-columns:minmax(0,1fr)}}
