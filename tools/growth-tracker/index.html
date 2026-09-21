@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Flowerhorn Growth Tracker: Log Size and Kok Over Time</title>
+<meta name="description" content="Log your flowerhorn&#x27;s length and kok development month by month, see the growth rate, and export the record as a CSV file.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://flowerhornhobby.com/tools/growth-tracker/">
+
+<meta name="theme-color" content="#EDF1EA" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1614" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Flowerhorn Hobby">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Growth and kok tracker">
+<meta property="og:description" content="Log your flowerhorn&#x27;s length and kok development month by month, see the growth rate, and export the record as a CSV file.">
+<meta property="og:url" content="https://flowerhornhobby.com/tools/growth-tracker/">
+<meta property="og:image" content="https://flowerhornhobby.com/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&family=Shippori+Mincho+B1:wght@700;800&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&display=swap&text=中伴具壽星源漢珍珠福種繁羅育花血詞購金雜養餘馬騮魚鵡鸚麒麟">
+<link rel="stylesheet" href="/assets/site.css?v=20260921b">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "@id": "https://flowerhornhobby.com/tools/growth-tracker/#app", "name": "Growth and kok tracker", "description": "Log your flowerhorn's length and kok development month by month, see the growth rate, and export the record as a CSV file.", "url": "https://flowerhornhobby.com/tools/growth-tracker/", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any", "browserRequirements": "Requires JavaScript", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@id": "https://www.petzonesd.com/#organization"}, "author": {"@type": "Person", "@id": "https://flowerhornhobby.com/about/#roger-ma", "name": "Roger Ma", "jobTitle": "Founder, Pet Zone Tropical Fish", "worksFor": {"@id": "https://www.petzonesd.com/#organization"}}, "inLanguage": "en"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://flowerhornhobby.com/"}, {"@type": "ListItem", "position": 2, "name": "Tools", "item": "https://flowerhornhobby.com/tools/"}, {"@type": "ListItem", "position": 3, "name": "Growth tracker", "item": "https://flowerhornhobby.com/tools/growth-tracker/"}]}, {"@type": "FAQPage", "@id": "https://flowerhornhobby.com/tools/growth-tracker/#faq", "url": "https://flowerhornhobby.com/tools/growth-tracker/", "mainEntity": [{"@type": "Question", "name": "Where is my data stored?", "acceptedAnswer": {"@type": "Answer", "text": "In your own browser, on this device. We never see it. Clearing your browsing data, or opening the page in a private window or on another device, means starting fresh. Download the CSV if you want a permanent copy."}}, {"@type": "Question", "name": "How often should I measure?", "acceptedAnswer": {"@type": "Answer", "text": "Once a month is plenty. Measuring weekly mostly records how hard the fish is pressing against the glass."}}, {"@type": "Question", "name": "How do I measure without stressing the fish?", "acceptedAnswer": {"@type": "Answer", "text": "Hold a ruler or a piece of tape against the outside of the glass while the fish is calm and parallel to it. Do not net the fish for a measurement."}}, {"@type": "Question", "name": "My fish stopped growing. Is that bad?", "acceptedAnswer": {"@type": "Answer", "text": "Not necessarily. Growth slows as fish mature. If it stalls early while the fish is still small, check ammonia and nitrate first, then feeding, then tank size."}}]}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="wrap">
+<a class="brand" href="/"><span class="seal" aria-hidden="true">花</span><span><span class="brand-name">Flowerhorn Hobby</span><span class="brand-sub">The luohan, explained</span></span></a>
+<div class="head-right"><nav class="site-nav" aria-label="Main"><ul><li><a href="/care/">Care</a></li><li><a href="/strains/">Strains</a></li><li><a href="/hybrid-cichlids/">Hybrids</a></li><li><a href="/buying/">Buying</a></li><li><a href="/tools/" aria-current="page">Tools</a></li><li><a href="/origins/">Origins</a></li><li><a href="/feng-shui/">Feng shui</a></li><li><a href="/pet-fish/">As a pet</a></li></ul></nav><nav class="lang-switch" aria-label="Language"><a href="/tools/growth-tracker/" hreflang="en" lang="en" aria-current="true">EN</a><a href="/zh-hant/" hreflang="zh-Hant" lang="zh-Hant">繁中</a><a href="/vi/" hreflang="vi" lang="vi">Tiếng Việt</a></nav></div>
+</div></header>
+<main id="main"><header class="page-head"><div class="wrap">
+<div><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/tools/">Tools</a></nav><p class="eyebrow">Tools</p><h1>Growth and kok tracker</h1><p class="dek">Measure once a month. In a year you will know more about your fish than any forum thread can tell you.</p></div>
+<p class="page-seal" lang="zh-Hant" aria-hidden="true">具</p>
+</div></header><div class="wrap prose"><section>
+  <h2 id="log">Log your fish</h2>
+  <p>Measure from the nose to the base of the tail, not the tip. Do it the same way each time, roughly once a month, and add a note whenever you change food, tank or routine. Entries stay in this browser: they are not sent anywhere, and they will not follow you to another device.</p>
+  <div class="tool" id="growth" data-tool="growth">
+ <div class="tool-head">
+  <h3>Growth and kok tracker</h3>
+  <p class="tool-hint">Saved in this browser only. Nothing is uploaded.</p>
+ </div>
+ <form id="gr-form">
+  <fieldset>
+   <legend>Add a measurement</legend>
+   <div class="tool-grid">
+    <label class="tool-field" for="gr-date"><span>Date</span>
+     <input type="date" id="gr-date" required>
+    </label>
+    <label class="tool-field" for="gr-len"><span>Length, nose to tail base</span>
+     <input type="number" id="gr-len" min="0.5" max="50" step="0.1" inputmode="decimal" required placeholder="5.5">
+    </label>
+    <label class="tool-field" for="gr-kok"><span>Kok development</span>
+     <select id="gr-kok">
+      <option value="0">None yet</option>
+      <option value="1">Just starting</option>
+      <option value="2" selected>Small</option>
+      <option value="3">Medium</option>
+      <option value="4">Large</option>
+      <option value="5">Very large</option>
+     </select>
+    </label>
+    <label class="tool-field" for="gr-note"><span>Note (optional)</span>
+     <input type="text" id="gr-note" maxlength="60" autocomplete="off" placeholder="switched to bigger pellets">
+    </label>
+   </div>
+   <div class="tool-choices" role="group" aria-label="Units">
+    <label><input type="radio" name="gr-unit" value="in" checked><span>Inches</span></label>
+    <label><input type="radio" name="gr-unit" value="cm"><span>Centimeters</span></label>
+   </div>
+   <div class="tool-actions">
+    <button type="submit" class="tool-btn tool-btn-solid">Add entry</button>
+    <button type="button" class="tool-btn" id="gr-csv">Download CSV</button>
+    <button type="button" class="tool-btn" id="gr-clear">Clear all</button>
+   </div>
+  </fieldset>
+ </form>
+ <div class="tool-out" id="gr-out" aria-live="polite">
+  <div class="tool-results" id="gr-stats"></div>
+  <p class="tool-empty" id="gr-empty">No entries yet. Measure the fish, add it above, and come back in a month.</p>
+  <div class="table-wrap">
+   <table class="tool-table" id="gr-table" hidden>
+    <thead><tr><th>Date</th><th>Length</th><th>Kok</th><th>Since last</th><th>Note</th><th><span class="u">Remove</span></th></tr></thead>
+    <tbody id="gr-rows"></tbody>
+   </table>
+  </div>
+ </div>
+ <noscript><p>This tracker needs JavaScript. You can keep the same log on paper: date, length, kok stage, and a short note about food or tank changes.</p></noscript>
+</div>
+</section>
+<section>
+  <h2 id="expect">What normal growth looks like</h2>
+  <p>A well-fed young flowerhorn in clean, warm water puts on size quickly for the first year, then slows down. Exact numbers vary by strain, genetics and how hard the fish is pushed, so the useful comparison is your fish against itself last month, not against someone else's fish online.</p>
+  <ul class="plain">
+    <li><strong>Growth stalls.</strong> Two or three months with no change usually points at water quality, too little food, or a tank that is too small, in that order.</li>
+    <li><strong>The kok arrives late.</strong> It typically develops well after the body, and it is not a race. Pushing protein to force a kok is how fish end up with bloat and short lives.</li>
+    <li><strong>Notes matter more than numbers.</strong> A dip after a move or an illness explains itself later when you can see the log.</li>
+  </ul>
+  <p>For what actually drives head growth, read <a href="/care/kok-growth/">kok growth: what works and what does not</a>. For feeding schedules by age, see the <a href="/care/feeding/">feeding guide</a>.</p>
+</section>
+<section class="faq">
+  <h2 id="faq-h">Questions</h2>
+  <details><summary>Where is my data stored?</summary><div><p>In your own browser, on this device. We never see it. Clearing your browsing data, or opening the page in a private window or on another device, means starting fresh. Download the CSV if you want a permanent copy.</p></div></details>
+  <details><summary>How often should I measure?</summary><div><p>Once a month is plenty. Measuring weekly mostly records how hard the fish is pressing against the glass.</p></div></details>
+  <details><summary>How do I measure without stressing the fish?</summary><div><p>Hold a ruler or a piece of tape against the outside of the glass while the fish is calm and parallel to it. Do not net the fish for a measurement.</p></div></details>
+  <details><summary>My fish stopped growing. Is that bad?</summary><div><p>Not necessarily. Growth slows as fish mature. If it stalls early while the fish is still small, check ammonia and nitrate first, then feeding, then tank size.</p></div></details>
+</section>
+</div><aside class="next"><div class="wrap"><a href="/care/kok-growth/"><span class="next-label">Keep reading</span><span class="next-title">Growing a flowerhorn kok</span></a></div></aside></main>
+<footer class="site-footer"><div class="wrap">
+<div><a class="brand" href="/"><span class="seal" aria-hidden="true">花</span><span><span class="brand-name">Flowerhorn Hobby</span></span></a>
+<p class="foot-blurb">A free guide to the flowerhorn cichlid and other hybrid cichlids: history, breeding, meaning and care. Published by Pet Zone Tropical Fish, San Diego, since 2007.</p></div>
+<div><h2>Guides</h2><ul><li><a href="/care/">Care guide</a></li><li><a href="/strains/">Strains</a></li><li><a href="/hybrid-cichlids/">Hybrid cichlids</a></li><li><a href="/buying/">Buying guide</a></li><li><a href="/tools/">Tools &amp; calculators</a></li><li><a href="/origins/">Origins &amp; history</a></li><li><a href="/breeding/">Breeding</a></li><li><a href="/feng-shui/">Feng shui</a></li><li><a href="/pet-fish/">Flowerhorn as a pet</a></li><li><a href="/glossary/">Glossary</a></li></ul></div>
+<div><h2>From Pet Zone</h2><ul><li><a href="https://flowerhorn.co/">Shop flowerhorns</a></li><li><a href="https://www.petzonesd.com/flowerhorn-san-diego/">Flowerhorns in San Diego</a></li><li><a href="https://www.petzonesd.com/">Pet Zone Tropical Fish</a></li><li><a href="https://www.petzonesd.com/contact-location/">Visit our stores</a></li><li><a href="/about/">About this site</a></li></ul></div>
+<p class="fine">&copy; 2026 Pet Zone Tropical Fish &middot; Last updated September 21, 2026</p>
+</div></footer>
+<script>(function(){
+  var root=document.getElementById('growth'); if(!root) return;
+  var KEY='fhh-growth-v1';
+  var form=document.getElementById('gr-form'), rowsEl=document.getElementById('gr-rows');
+  var tableEl=document.getElementById('gr-table'), emptyEl=document.getElementById('gr-empty'), statsEl=document.getElementById('gr-stats');
+  var dateEl=document.getElementById('gr-date'), lenEl=document.getElementById('gr-len'), kokEl=document.getElementById('gr-kok'), noteEl=document.getElementById('gr-note');
+  var KOK=['none','just starting','small','medium','large','very large'];
+  var entries=[], stored=true;
+  function load(){
+    try{var raw=localStorage.getItem(KEY); entries=raw?JSON.parse(raw):[];}
+    catch(e){entries=[]; stored=false;}
+    if(!Array.isArray(entries)) entries=[];
+  }
+  function save(){
+    try{localStorage.setItem(KEY,JSON.stringify(entries));}
+    catch(e){stored=false;}
+  }
+  function unit(){return form.querySelector('input[name=gr-unit]:checked').value;}
+  function toIn(v,u){return u==='cm'?v/2.54:v;}
+  function show(inches){return unit()==='cm'?(inches*2.54).toFixed(1)+' cm':inches.toFixed(1)+' in';}
+  function months(a,b){return (new Date(b)-new Date(a))/(1000*60*60*24*30.44);}
+  function sorted(){return entries.slice().sort(function(a,b){return a.d<b.d?-1:a.d>b.d?1:0;});}
+  function render(){
+    var list=sorted();
+    rowsEl.innerHTML='';
+    tableEl.hidden=list.length===0;
+    emptyEl.hidden=list.length>0;
+    var max=list.reduce(function(m,e){return Math.max(m,e.l);},1);
+    list.forEach(function(e,i){
+      var prev=i>0?list[i-1]:null;
+      var delta=prev?e.l-prev.l:null;
+      var tr=document.createElement('tr');
+      var bar='<span class="tool-bar" style="width:'+Math.max(4,Math.round(e.l/max*100))+'%"></span>';
+      tr.innerHTML='<td>'+e.d+'</td><td>'+show(e.l)+bar+'</td><td>'+KOK[e.k]+'</td><td>'+
+        (delta===null?'—':(delta>=0?'+':'')+show(Math.abs(delta)).replace(/^/,delta<0?'-':''))+'</td><td>'+
+        (e.n?String(e.n).replace(/[<>&]/g,''):'')+'</td><td></td>';
+      var btn=document.createElement('button');
+      btn.type='button'; btn.className='tool-btn'; btn.textContent='Remove';
+      btn.setAttribute('aria-label','Remove entry for '+e.d);
+      btn.addEventListener('click',function(){
+        entries=entries.filter(function(x){return !(x.d===e.d&&x.l===e.l&&x.k===e.k);});
+        save(); render();
+      });
+      tr.lastChild.appendChild(btn);
+      rowsEl.appendChild(tr);
+    });
+    statsEl.innerHTML='';
+    if(list.length>1){
+      var first=list[0], last=list[list.length-1];
+      var grew=last.l-first.l, span=months(first.d,last.d);
+      var rate=span>0.3?grew/span:null;
+      var out='<div class="tool-stat"><span class="k">Now</span><span class="v">'+show(last.l)+'</span><span class="u">'+KOK[last.k]+' kok</span></div>';
+      out+='<div class="tool-stat"><span class="k">Grown</span><span class="v">'+(grew>=0?'+':'')+show(Math.abs(grew))+'</span><span class="u">over '+span.toFixed(1)+' months</span></div>';
+      if(rate!==null) out+='<div class="tool-stat"><span class="k">Rate</span><span class="v">'+show(Math.abs(rate)).replace(/^/,rate<0?'-':'')+'</span><span class="u">per month</span></div>';
+      out+='<div class="tool-stat"><span class="k">Entries</span><span class="v">'+list.length+'</span><span class="u">'+(stored?'saved in this browser':'not saved, storage blocked')+'</span></div>';
+      statsEl.innerHTML=out;
+    }else if(list.length===1){
+      statsEl.innerHTML='<div class="tool-stat"><span class="k">First entry</span><span class="v">'+show(list[0].l)+'</span><span class="u">add another next month</span></div>';
+    }
+  }
+  form.addEventListener('submit',function(ev){
+    ev.preventDefault();
+    var v=parseFloat(lenEl.value); if(isNaN(v)||v<=0) return;
+    entries.push({d:dateEl.value||new Date().toISOString().slice(0,10),l:toIn(v,unit()),k:parseInt(kokEl.value,10),n:noteEl.value.trim()});
+    save(); lenEl.value=''; noteEl.value=''; render(); lenEl.focus();
+  });
+  form.addEventListener('change',function(ev){ if(ev.target.name==='gr-unit') render(); });
+  document.getElementById('gr-clear').addEventListener('click',function(){
+    if(!entries.length) return;
+    if(window.confirm('Delete all entries in this browser?')){entries=[]; save(); render();}
+  });
+  document.getElementById('gr-csv').addEventListener('click',function(){
+    var rows=[['date','length_in','length_cm','kok','note']];
+    sorted().forEach(function(e){rows.push([e.d,e.l.toFixed(2),(e.l*2.54).toFixed(2),KOK[e.k],(e.n||'').replace(/"/g,"'")]);});
+    var csv=rows.map(function(r){return r.map(function(c){return '"'+c+'"';}).join(',');}).join('\n');
+    var a=document.createElement('a');
+    a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));
+    a.download='flowerhorn-growth.csv'; document.body.appendChild(a); a.click();
+    setTimeout(function(){URL.revokeObjectURL(a.href); document.body.removeChild(a);},100);
+  });
+  load();
+  try{dateEl.value=new Date().toISOString().slice(0,10);}catch(e){}
+  render();
+})();
+</script>
+</body>
+</html>
