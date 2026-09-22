@@ -237,8 +237,15 @@
       li.textContent=n.t; notesEl.appendChild(li);
     });
   }
-  form.addEventListener('input',render);
-  form.addEventListener('change',render);
+  var ga_interacted=false, ga_timer=null;
+  function ga_track(){
+    if(typeof gtag!=='function') return;
+    if(!ga_interacted){ga_interacted=true; gtag('event','tool_interaction',{tool_name:'grading_scorecard'});}
+    clearTimeout(ga_timer);
+    ga_timer=setTimeout(function(){gtag('event','tool_calculation',{tool_name:'grading_scorecard'});},1000);
+  }
+  form.addEventListener('input',function(){ga_track();render();});
+  form.addEventListener('change',function(){ga_track();render();});
   form.addEventListener('reset',function(){setTimeout(render,0);});
   document.getElementById('g-print').addEventListener('click',function(){window.print();});
   document.getElementById('g-copy').addEventListener('click',function(){

@@ -173,8 +173,15 @@
     if(document.getElementById('t-stage').value==='big') add('Footprint matters more than volume for a big male. A long, wide tank beats a tall one of the same gallons.',false);
     add('A full tank this size weighs roughly '+(metric()?Math.round(tank*4.85)+' kg':Math.round(tank*10.7)+' lb')+' once filled. Check the stand and the floor.',false);
   }
-  form.addEventListener('input',render);
-  form.addEventListener('change',render);
+  var ga_interacted=false, ga_timer=null;
+  function ga_track(){
+    if(typeof gtag!=='function') return;
+    if(!ga_interacted){ga_interacted=true; gtag('event','tool_interaction',{tool_name:'tank_calculator'});}
+    clearTimeout(ga_timer);
+    ga_timer=setTimeout(function(){gtag('event','tool_calculation',{tool_name:'tank_calculator'});},1000);
+  }
+  form.addEventListener('input',function(){ga_track();render();});
+  form.addEventListener('change',function(){ga_track();render();});
   render();
 })();
 </script>
