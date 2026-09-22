@@ -185,7 +185,14 @@
     add(AGE_NOTE[r.age], r.age==='tiny'||r.age==='small');
     if(diff<1.5&&!r.eggs) add('When the signs disagree, the fish is usually either young or an exception. Give it a few months and check the vent again.',true);
   }
-  form.addEventListener('change',render);
+  var ga_interacted=false, ga_timer=null;
+  function ga_track(){
+    if(typeof gtag!=='function') return;
+    if(!ga_interacted){ga_interacted=true; gtag('event','tool_interaction',{tool_name:'male_or_female'});}
+    clearTimeout(ga_timer);
+    ga_timer=setTimeout(function(){gtag('event','tool_calculation',{tool_name:'male_or_female'});},1000);
+  }
+  form.addEventListener('change',function(){ga_track();render();});
   form.addEventListener('reset',function(){setTimeout(render,0);});
   render();
 })();

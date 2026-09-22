@@ -184,11 +184,18 @@
       statsEl.innerHTML='<div class="tool-stat"><span class="k">First entry</span><span class="v">'+show(list[0].l)+'</span><span class="u">add another next month</span></div>';
     }
   }
+  var ga_interacted=false;
+  function ga_track(name){
+    if(typeof gtag!=='function') return;
+    if(!ga_interacted){ga_interacted=true; gtag('event','tool_interaction',{tool_name:'growth_tracker'});}
+    gtag('event',name,{tool_name:'growth_tracker'});
+  }
   form.addEventListener('submit',function(ev){
     ev.preventDefault();
     var v=parseFloat(lenEl.value); if(isNaN(v)||v<=0) return;
     entries.push({d:dateEl.value||new Date().toISOString().slice(0,10),l:toIn(v,unit()),k:parseInt(kokEl.value,10),n:noteEl.value.trim()});
     save(); lenEl.value=''; noteEl.value=''; render(); lenEl.focus();
+    ga_track('tool_calculation');
   });
   form.addEventListener('change',function(ev){ if(ev.target.name==='gr-unit') render(); });
   document.getElementById('gr-clear').addEventListener('click',function(){
@@ -203,6 +210,7 @@
     a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));
     a.download='flowerhorn-growth.csv'; document.body.appendChild(a); a.click();
     setTimeout(function(){URL.revokeObjectURL(a.href); document.body.removeChild(a);},100);
+    ga_track('tool_export');
   });
   load();
   try{dateEl.value=new Date().toISOString().slice(0,10);}catch(e){}
