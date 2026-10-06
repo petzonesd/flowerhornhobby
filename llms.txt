@@ -1,0 +1,66 @@
+# Flowerhorn Hobby
+
+> A free educational guide to the flowerhorn cichlid and other hybrid cichlids — origins, breeding, feng shui meaning, and care. Published by Pet Zone Tropical Fish, a San Diego aquarium store since 2007. Companion site flowerhorn.co covers strain buying and live stock.
+
+## Care
+- [Care guide](https://flowerhornhobby.com/care/): Quick care sheet for tank size, temperature, pH and diet, plus a weekly routine.
+- [Tank setup](https://flowerhornhobby.com/care/tank-setup/): Tank size by age, filtration and turnover, heater safety, lighting and decor.
+- [Water parameters](https://flowerhornhobby.com/care/water-temperature/): Temperature, pH and hardness, cycling a new tank, ammonia/nitrate, water changes.
+- [Feeding](https://flowerhornhobby.com/care/feeding/): Staple pellets, safe treats, a feeding schedule by age, color and kok foods.
+- [Kok growth](https://flowerhornhobby.com/care/kok-growth/): What controls head size, genetics vs care, an age timeline, why koks shrink.
+- [Adult size](https://flowerhornhobby.com/care/size/): How big flowerhorns get, male/female differences, a growth chart by age.
+- [Lifespan](https://flowerhornhobby.com/care/lifespan/): How long flowerhorns live, what shortens or extends it.
+- [Tank mates](https://flowerhornhobby.com/care/tank-mates/): Why flowerhorns live alone, rare exceptions, dividers and dither fish.
+- [Behavior](https://flowerhornhobby.com/care/behavior/): Glass surfing, flaring, sulking, digging, and when it signals a health problem.
+- [Diseases](https://flowerhornhobby.com/care/diseases/): Hole in the head, swim bladder, ich, fin rot, fungus, cloudy eye and treatment.
+
+## Breeding & strains
+- [Breeding guide](https://flowerhornhobby.com/breeding/): Pairing, the divider method, spawning, fry, and grading for kok and pearls.
+- [Strains guide](https://flowerhornhobby.com/strains/): What a strain is and how to tell Kamfa, Zhen Zhu, Red Dragon, Thai Silk and Golden Base apart.
+- [Kamfa](https://flowerhornhobby.com/strains/kamfa/): Square body, sunken eye, F0-F4, water head koks, King Kamfa.
+- [Zhen Zhu (ZZ)](https://flowerhornhobby.com/strains/zhen-zhu/): The pearl strain, hard head kok, SRD ZZ and KML labels.
+- [Red Dragon / SRD](https://flowerhornhobby.com/strains/red-dragon/): How color develops with age, color-enhancing food, and fading.
+- [Thai Silk / Titanium](https://flowerhornhobby.com/strains/thai-silk/): Metallic finish, kok expectations, look-alikes.
+- [Golden Base & faders](https://flowerhornhobby.com/strains/golden-base/): How juveniles darken then fade to gold, the Golden Monkey name.
+- [Kamalau](https://flowerhornhobby.com/strains/kamalau/): The Kamfa x Malau cross and the monkey face.
+- [Short body (bonsai/balloon)](https://flowerhornhobby.com/strains/short-body/): The compact shape, spine/swim bladder risk, ethics.
+- [Strain names & aliases](https://flowerhornhobby.com/strains/names/): A plain-English directory of trade names.
+
+## Hybrid cichlids
+- [Hybrid cichlids explained](https://flowerhornhobby.com/hybrid-cichlids/): What makes a fish a hybrid, the ethics debate, never releasing one.
+- [Blood parrot cichlid](https://flowerhornhobby.com/hybrid-cichlids/blood-parrot/): Origin, the beak mouth, dyed/heart parrots, care and tank mates.
+- [King Kong parrot](https://flowerhornhobby.com/hybrid-cichlids/king-kong-parrot/): Size, kok-like hump, temperament, setup.
+- [Kirin parrot](https://flowerhornhobby.com/hybrid-cichlids/kirin-parrot/): The flowerhorn x parrot hybrid, size and care.
+- [Flowerhorn vs blood parrot](https://flowerhornhobby.com/hybrid-cichlids/flowerhorn-vs-blood-parrot/): Side-by-side comparison of size, temperament, tank, cost.
+
+## Buying
+- [Buying guide](https://flowerhornhobby.com/buying/): Pet vs show grade, strain, fry vs grown fish, where to buy, red flags.
+- [Grading](https://flowerhornhobby.com/buying/grading/): Judging kok, flower, pearling, color, body, eyes, mouth and fins.
+- [Male or female](https://flowerhornhobby.com/buying/male-or-female/): Sexing flowerhorns by age — dorsal spots, kok, vent and papilla.
+- [Prices](https://flowerhornhobby.com/buying/prices/): Real listing prices by size, strain and grade, plus shipping costs.
+- [Shipping & acclimation](https://flowerhornhobby.com/buying/shipping-acclimation/): Delivery day, drip acclimation, first feeding, quarantine.
+
+## Meaning & lifestyle
+- [Origins & history](https://flowerhornhobby.com/origins/): Malaysia in the 1990s, the blood parrot's role, timeline, boom and crash.
+- [Feng shui](https://flowerhornhobby.com/feng-shui/): The kok, the God of Longevity, markings, colors.
+- [Feng shui tank placement](https://flowerhornhobby.com/feng-shui/placement/): Where practitioners say a tank should go, lucky numbers and shape.
+- [The flowerhorn as a pet](https://flowerhornhobby.com/pet-fish/): Why keepers call it a water dog, how it bonds, the care it needs.
+- [San Diego](https://flowerhornhobby.com/san-diego/): Local tap water, heater/cooling advice, clubs and rehoming.
+
+## Tools
+- [Tools hub](https://flowerhornhobby.com/tools/): Grading, sexing, tank, growth and luck calculators.
+- [Grading scorecard](https://flowerhornhobby.com/tools/grading-scorecard/): Score a fish on kok, flower, pearling, color, body, eyes, fins, behavior.
+- [Male or female checker](https://flowerhornhobby.com/tools/male-or-female/): Answer-based sexing with a confidence score.
+- [Tank calculator](https://flowerhornhobby.com/tools/tank-calculator/): Tank size, filter flow, heater wattage and water change by growth stage.
+- [Growth tracker](https://flowerhornhobby.com/tools/growth-tracker/): Log length and kok development over time, export as CSV.
+- [Feng shui luck score](https://flowerhornhobby.com/tools/feng-shui-luck/): Score a fish's feng shui luck from kok, color, pearling and placement.
+
+## Reference
+- [FAQ](https://flowerhornhobby.com/faq/): Short answers to the most-asked flowerhorn questions.
+- [Glossary](https://flowerhornhobby.com/glossary/): Plain-English definitions — kok, water head, pearling, faders, F0-F4 and more.
+- [About](https://flowerhornhobby.com/about/): About Flowerhorn Hobby and Pet Zone Tropical Fish.
+
+## Translations
+- Vietnamese: https://flowerhornhobby.com/vi/
+- Traditional Chinese: https://flowerhornhobby.com/zh-hant/
+- Spanish: https://flowerhornhobby.com/es/
